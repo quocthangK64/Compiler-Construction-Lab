@@ -15,4 +15,5 @@
 **/.hex
 
 # Only for Mac
-**/.DS_Store
+.DS_Store
+
