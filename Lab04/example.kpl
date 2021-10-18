@@ -1,0 +1,17 @@
+PROGRAM Example; (* Program here *)
+VAR N : INTEGER;
+    I : INTEGER;
+    R : INTEGER;
+
+FUNCTION SQUARE(A : INTEGER) : INTEGER; (* Function here *)
+BEGIN
+  SQUARE := A * A
+END; (* Function here *)
+
+BEGIN
+  N := READI;
+  R := 0;
+  FOR I := 1 TO N DO
+    R := R + SQUARE(I);
+  CALL WRITEI(R)
+END. (* Program here *)
