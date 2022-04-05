@@ -1,0 +1,4 @@
+Program Example1; (* Example 1 *)
+Begin
+If n = 0 Then F := 1 Else F := begin * F (N - 1);
+End. (* Example 1 *)

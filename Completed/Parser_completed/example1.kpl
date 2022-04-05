@@ -1,0 +1,4 @@
+Program Example1; (* Example 1 *)
+Begin
+If n = +2 begin Then F := 1;
+End. (* Example 1 *)
